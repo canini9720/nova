@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.novaservice</groupId>
+    <artifactId>novaservice-main</artifactId>
+    <version>${novaservice.version}</version>
+  </parent>
+  <artifactId>novaservice-nova</artifactId>
+<dependencies>
+  	<dependency>
+		<groupId>com.novaservice</groupId>
+	  	<artifactId>novaservice-common</artifactId> 
+	  	<version>${novaservice.common.version}</version> 
+	</dependency>
+	
+  </dependencies>
+</project>
